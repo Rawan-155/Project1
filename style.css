@@ -1218,5 +1218,92 @@ main #left2{
         padding: none;
     }
 } 
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        height:5650px;
+    }
+    main #left,
+    main #right {
+        width: 100%;
+    }
+    main #left,
+    main #right {
+        float: none;
+    }
+    main #left {
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    main #right {
+        order: 1;
+       
+    }
+    main #right #rightsection #subscribe,
+    main #right #rightsection #follow,
+    main #right #rightsection #inspiration,
+    main #right #rightsection #tags,
+    main #right #rightsection #posts,
+    main #right #rightsection #advertise,
+    main #right #rightsection h2,
+    main #right #girl
+    {
+    margin-left: 80px;   
+    width:700px;   
+    }
+    main #right #girl{
+        margin-top:120px;
+    }
+    main #right #rightsection #subscribe input{
+        font-size: 30px;
+    }
+    main #left #hr #replyimg{
+        width:100px;
+        height: 100px;
+    }
+    main #left #hr #george,
+    main #left #hr #georgereply{
+        font-size: 18px;
+        margin-left: 50px;
+
+    }
+    main #left #girlhat{
+        width:440px;
+        height: 400px;
+        margin-left: 200px;   
+    }
+    header img{
+        height:550px;
+    }
+    header #imgtext h1{
+        font-size: 49px;
+    }
+    header #imgtext h2{
+        font-size: 30px;
+    }
+    main #right #texttt{
+        top:318%;
+        left:15%;
+        width: 550px;
+    }
+    main #right #textt{
+        top:315%;
+        left:0%;
+        width: 550px;
+    }
+    #text h1{
+        font-size: 38px;
+    }
+    #text p{
+        font-size: 15px;
+    }
+    nav{
+        width: 100%;
+        padding: none;
+    }
+} 
  
 
