@@ -85,7 +85,6 @@ background-color: silver;
 }
 /*--------------footer---------------------*/
 footer{
-      /* margin-top: 300px; */
       background-color: #616161;
       padding:30px;  
 }
@@ -122,7 +121,6 @@ main #right{
 float:right;
 width:27%;
 height:100px;
-background-color: white;
 margin-top: 30px;
 margin-right: 40px;
 }
@@ -138,8 +136,8 @@ main #right #textt{
     font-size: 20px;
     position: absolute;
     text-align: center;
-    top:1280px;
-    right: 270px;
+    top:1250px;
+    right: 260px;
     color: white;
 } 
 main #right #texttt{
@@ -147,7 +145,7 @@ main #right #texttt{
     font-size: 15px;
     position: absolute;
     text-align: justify;
-    top:1320px;
+    top:230%;
     right: 50px;
     width: 310px;
     color:white;
@@ -252,7 +250,7 @@ main #right #rightsection #subscribe{
 main #right #rightsection #subscribe input{
     width:100%;
     padding:10px;
-    margin-top:10px;
+    margin-top:20px;  
 }
 main #right #rightsection #subscribe #sub{
     font-family: opensans;
@@ -393,70 +391,221 @@ main #left2{
   margin-top: 20px;
   margin-bottom: 50px;
 }
-#space {
-    margin-top: 0px;
-    margin-right: 2000px;
-    height: 0px;
-    background-color: #F1F1F1;
-    border: none;
-}
-/*--------------media query---------------------*/
-@media screen and (max-width: 768px) {
-    header #imgtext h2 {
-        font-size: 24px;
+/*------------------------------------------*/
+@media screen and (min-width: 300px) and (max-width: 570px)
+{
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin:none;
+        padding: none;
+        width:1000px;
+        height: 6280px;
+        
     }
-    header #imgtext h1 {
-        font-size: 36px;
+    main #left,
+    main #right {
+        margin-top: 2px;
+        margin-left:15px;
+        width:900px;
+        float: none;
     }
-    header #imgtext button {
-        padding: 8px 16px;
-        font-size: 16px;
+    main #left {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        height:1150px;
+       
     }
-    header img#img {
-        height: auto;
-        max-width: 100%;
+    main #left h2,main #left h3{
+        font-size: 25px;
     }
-    main aside#right,
-    main aside#left {
-        width: 100%;
-        margin: 10px 0;
+    main #left p span{
+        font-size: 30px;
     }
-    main img#girlhat {
-        max-width: 100%;
-        height: auto;
+    main #left p{
+        font-size: 25px;
+        line-height: 30px;
     }
-}
-@media screen and (max-width: 550px) {
-    header #imgtext h2 {
+    main #left #girlhat{
+        margin-left: 80px;
+    }
+
+    main #left #buttons {
+        margin-top:30px;
+    }
+    main #right {
+        order: 1;
+        margin-left:20px;
+        background-color: #F1F1F1;
+       
+    }
+    main #right #rightsection #subscribe,
+    main #right #rightsection #follow,
+    main #right #rightsection #inspiration,
+    main #right #rightsection #tags,
+    main #right #rightsection #posts,
+    main #right #rightsection #advertise,
+    main #right #rightsection h2,
+    main #right #girl
+    {
+    margin-left: 23px;   
+    width:900px;
+    font-size: 30px;
+
+        
+    }
+    main #right #girl{
+        width: 900px;
+        height: 500px;
+    }
+    main #right #rightsection #posts ul li .rights{
+        font-size: 25px;
+    }
+    main #right #rightsection #posts ul li .lefts img{
+        width: 75px;
+        height: 75px;
+    }
+    main #right #textt{
+        top:527%;
+        right:30%;
+        font-size: 30px;
+    }
+    main #right #texttt{
+        width:700px;
+        top:535%;
+        left:30%;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    footer{
+        
+        width: 1000px;
+    }
+    header{
+    }
+    header img{
+        height:500px;
+        width:1000px;
+    }
+    nav{
+        width:1000px;
+        height:50px;
+        font-size: 30px;
+    }
+    #text{
+        margin-left:250px;
+        text-align: center;
+    }
+    #text h1,#text p{
+        width:500px;
+
+    }
+    header #imgtext{
+        top:40%;
+        left:50px;
+    }
+    main #left #buttons #like,main #left #buttons #reply{
+        width: 110px;
+        height:55px;
+    }
+    main #left #hr #replyimg{
+        width: 120px;
+        height: 120px;
+    }
+    main #left #hr section{
+        left:120px;
+    }
+    main #left #hr #georgereply,#george{
         font-size: 20px;
     }
-    header #imgtext h1 {
-        font-size: 32px;
-    }
-    header #imgtext button {
-        padding: 6px 12px;
-        font-size: 14px;
-    }
-    main aside#right,
-    main aside#left {
-        width: 100%;
-        margin: 10px 0;
-    }
-    main img#img {
-        height: auto;
-        max-width: 100%;
-    }
-    main img#girlhat {
-        max-width: 100%;
-        height: auto;
-    }
-    main h2 {
-        font-size: 22px;
-    }
-    main h3 {
-        font-size: 16px;
-    }
-    main p {
-        font-size: 12px;
-    }
 }
+
+/*------------------------------------------*/
+ @media screen and (min-width: 580px) and (max-width: 1050px) {
+  
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        height:5650px;
+    }
+    main #left,
+    main #right {
+        width: 100%;
+    }
+    main #left,
+    main #right {
+        float: none;
+    }
+    main #left {
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    main #right {
+        order: 1;
+       
+    }
+    main #right #rightsection #subscribe,
+    main #right #rightsection #follow,
+    main #right #rightsection #inspiration,
+    main #right #rightsection #tags,
+    main #right #rightsection #posts,
+    main #right #rightsection #advertise,
+    main #right #rightsection h2,
+    main #right #girl
+    {
+    margin-left: 80px;   
+    width:700px;   
+    }
+    main #right #girl{
+        margin-top:120px;
+    }
+    main #right #rightsection #subscribe input{
+        font-size: 30px;
+    }
+    main #left #hr #replyimg{
+        width:100px;
+        height: 100px;
+    }
+    main #left #hr #george,
+    main #left #hr #georgereply{
+        font-size: 18px;
+        margin-left: 50px;
+
+    }
+    main #left #girlhat{
+        width:440px;
+        height: 400px;
+        margin-left: 200px;   
+    }
+    header img{
+        height:550px;
+    }
+    header #imgtext h1{
+        font-size: 50px;
+    }
+    header #imgtext h2{
+        font-size: 30px;
+    }
+    main #right #texttt{
+        top:360%;
+        left:15%;
+    }
+    main #right #textt{
+        top:355%;
+        left:0%;
+    }
+    #text h1{
+        font-size: 38px;
+    }
+    #text p{
+        font-size: 15px;
+    }
+    nav{
+        width: 100%;
+        padding: none;
+    }
+} 
+ 
+
