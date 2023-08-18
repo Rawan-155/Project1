@@ -145,7 +145,7 @@ main #right #texttt{
     font-size: 15px;
     position: absolute;
     text-align: justify;
-    top:230%;
+    top:220%;
     right: 50px;
     width: 310px;
     color:white;
@@ -208,7 +208,7 @@ padding:15px;
 main #right #rightsection #advertise section{
     background-color: #F1F1F1;
     text-align: center;
-    padding:100px 0px;
+    padding:110px 0px;
 }
 /*--------------tags---------------------*/
  main #right #rightsection #tags{
